@@ -2,7 +2,7 @@ package simpl;
 
 import java.util.Scanner;
 
-public class main {
+public class MainTwo {
     public static void main(String[] args) {
         Scanner sw = new Scanner(System.in);
         double a = sw.nextDouble();

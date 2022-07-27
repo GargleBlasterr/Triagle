@@ -5,7 +5,7 @@ public class HappyBox implements BoxInterface {
     private String from;
     private String to;
 
-    public HappyBox(String text, String from , String to, BoxInterface defoltBox){
+    public HappyBox(String text, String from, String to, BoxInterface defoltBox) {
         this.text = text;
         this.from = from;
         this.to = to;
@@ -36,12 +36,14 @@ public class HappyBox implements BoxInterface {
     }
 
     @Override
-    public double FindVolume() {
+    public double findVolume() {
         return 8;
     }
 
     @Override
     public double getPrice() {
-        return 10;
+        return 125;
     }
+
+
 }

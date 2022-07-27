@@ -1,6 +1,8 @@
 package boxx;
 
 public interface BoxInterface {
-    double FindVolume();
+    double findVolume();
     double getPrice();
+
+
 }

@@ -4,13 +4,14 @@ package boxx;
 public class CylinderBox implements BoxInterface {
     private double h;
     private double r;
-    final double price;
+    double price;
 
-    public CylinderBox(double h, double r,double price){
+    public CylinderBox(double h, double r, double price) {
         this.h = h;
         this.r = r;
         this.price = price;
     }
+
     public double getR() {
         return r;
     }
@@ -28,8 +29,8 @@ public class CylinderBox implements BoxInterface {
     }
 
     @Override
-    public double FindVolume() {
-        return Math.PI*Math.pow(r,2)*h;
+    public double findVolume() {
+        return Math.PI * Math.pow(r, 2) * h;
     }
 
     @Override

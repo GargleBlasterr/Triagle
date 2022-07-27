@@ -5,16 +5,19 @@ public class DefoltBox implements BoxInterface {
     private double b;
     private double c;
     private double price;
-    public DefoltBox(double a, double b, double c,double price) {
+
+    public DefoltBox(double a, double b, double c, double price) {
         this.a = a;
         this.b = b;
         this.c = c;
         this.price = price;
     }
+
     @Override
-    public double FindVolume() {
-        return a*b*c;
+    public double findVolume() {
+        return a * b * c;
     }
+
     public double getPrice() {
         return price;
     }

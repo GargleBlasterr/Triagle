@@ -44,6 +44,9 @@ public class HappyBox implements BoxInterface {
     public double getPrice() {
         return 125;
     }
+    public double getPrices(){
+        return 150;
+    }
 
 
 }
